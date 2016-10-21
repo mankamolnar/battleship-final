@@ -107,7 +107,7 @@ def turn(map, mapDraw, player, playeronthismachine = 2):
     if changePlayer == True:
         
         #draw shot if you are okey
-        if mapDraw[player-1][x][y] == "O":
+        if mapDraw[player-1][x][y] == "~":
             if map[player-1][x][y].isdigit():
                 mapDraw[player-1][x][y] = map[player-1][x][y]
                 couldHit = True
